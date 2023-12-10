@@ -8,6 +8,7 @@ import { getServerSideUser } from '@/lib/payload-utils'
 import { cookies } from 'next/headers'
 import UserAccountNav from './UserAccountNav'
 import MobileNav from './MobileNav'
+import Image from 'next/image'
 
 const Navbar = async () => {
   const nextCookies = cookies()
@@ -18,12 +19,18 @@ const Navbar = async () => {
       <header className='relative bg-white'>
         <MaxWidthWrapper>
           <div className='border-b border-gray-200'>
-            <div className='flex h-16 items-center'>
+            <div className='flex h-16 items-center bg-orange'>
               <MobileNav />
 
               <div className='ml-4 flex lg:ml-0'>
                 <Link href='/'>
-                  <Icons.logo className='h-10 w-10' />
+                <div className='relative mb-4 h-20 w-20 text-muted-foreground'>
+                    <Image
+                      src='/LOGO_SOFTDEV-01.png'
+                      fill
+                      alt='Sign in to your account'
+                    />
+                  </div>
                 </Link>
               </div>
 

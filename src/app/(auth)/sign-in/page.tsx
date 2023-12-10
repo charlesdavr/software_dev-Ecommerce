@@ -1,5 +1,5 @@
 'use client'
-
+import Image from 'next/image'
 import { Icons } from '@/components/Icons'
 import {
   Button,
@@ -82,7 +82,13 @@ const Page = () => {
       <div className='container relative flex pt-20 flex-col items-center justify-center lg:px-0'>
         <div className='mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]'>
           <div className='flex flex-col items-center space-y-2 text-center'>
-            <Icons.logo className='h-20 w-20' />
+          <div className='relative mb-4 h-60 w-60 text-muted-foreground'>
+              <Image
+                src='/LOGO_SOFTDEV-01.png'
+                fill
+                alt='Sign in to your account'
+              />
+            </div>
             <h1 className='text-2xl font-semibold tracking-tight'>
               Sign in to your {isSeller ? 'seller' : ''}{' '}
               account

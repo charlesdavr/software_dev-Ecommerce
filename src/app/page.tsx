@@ -13,22 +13,22 @@ import Link from 'next/link'
 
 const perks = [
   {
-    name: 'Instant Delivery',
+    name: 'Fast Delivery',
     Icon: ArrowDownToLine,
     description:
-      'Get your assets delivered to your email in seconds and download them right away.',
+      'Get your collectibles delivered at your doorstep for as fast as 3 days.',
   },
   {
-    name: 'Guaranteed Quality',
+    name: 'Authentic Collectibles',
     Icon: CheckCircle,
     description:
-      'Every asset on our platform is verified by our team to ensure our highest quality standards. Not happy? We offer a 30-day refund guarantee.',
+      'Every collectible sold in our platform is authentic and verified by experts. Not contented? We offer a 30-day warranty for you',
   },
   {
-    name: 'For the Planet',
+    name: 'Environmentally friendly',
     Icon: Leaf,
     description:
-      "We've pledged 1% of sales to the preservation and restoration of the natural environment.",
+      "We pledged that our services will utilize clean energy sources to run our website to help combat climate change.",
   },
 ]
 
@@ -39,15 +39,15 @@ export default function Home() {
         <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
           <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
             Your marketplace for high-quality{' '}
-            <span className='text-blue-600'>
-              digital assets
+            <span className='text-orange-600'>
+              collectibles
             </span>
             .
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            Welcome to DigitalHippo. Every asset on our
-            platform is verified by our team to ensure our
-            highest quality standards.
+            Welcome to Collectiverse. Every collectibles on our
+            platform is verified by specialize appraisers and
+            our team personally.
           </p>
           <div className='flex flex-col sm:flex-row gap-4 mt-6'>
             <Link

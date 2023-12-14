@@ -11,6 +11,7 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 
+
 const perks = [
   {
     name: 'Fast Delivery',
@@ -49,10 +50,10 @@ export default function Home() {
             platform is verified by specialize appraisers and
             our team personally.
           </p>
-          <div className='flex flex-col sm:flex-row gap-4 mt-6'>
+          <div className='flex flex-col sm:flex-row gap-4 mt-6' >
             <Link
               href='/products'
-              className={buttonVariants()}>
+              className={buttonVariants()} style={{ backgroundColor: '#EA580C', color: 'white' }}>
               Browse Trending
             </Link>
             <Button variant='ghost'>
@@ -76,7 +77,7 @@ export default function Home() {
                 key={perk.name}
                 className='text-center md:flex md:items-start md:text-left lg:block lg:text-center'>
                 <div className='md:flex-shrink-0 flex justify-center'>
-                  <div className='h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-900'>
+                  <div className='h-16 w-16 flex items-center justify-center rounded-full bg-orange-100 text-orange-600'>
                     {<perk.Icon className='w-1/3 h-1/3' />}
                   </div>
                 </div>

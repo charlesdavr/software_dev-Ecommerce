@@ -27,9 +27,9 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = 'DigitalHippo - the marketplace for digital assets',
-  description = 'DigitalHippo is an open-source marketplace for high-quality digital goods.',
-  image = '/thumbnail.png',
+  title = 'Collectiverse - the marketplace for collectibles',
+  description = 'Collectiverse is an open-source marketplace for high-quality collectibles.',
+  image = '/LOGO_SOFTDEV-01.png',
   icons = '/favicon.ico',
   noIndex = false,
 }: {

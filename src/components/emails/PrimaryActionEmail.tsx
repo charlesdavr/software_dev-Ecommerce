@@ -29,21 +29,21 @@ export const EmailTemplate = ({
     <Html>
       <Head />
       <Preview>
-        The marketplace for high-quality digital goods.
+        The marketplace for high-quality collectibles.
       </Preview>
       <Body style={main}>
         <Container style={container}>
           <Img
-            src={`${process.env.NEXT_PUBLIC_SERVER_URL}/hippo-newsletter-sign-up.png`}
+            src={`${process.env.NEXT_PUBLIC_SERVER_URL}/LOGO_SOFTDEV-01.png`}
             width='150'
             height='150'
-            alt='DigitalHippo'
+            alt='Collectiverse'
             style={logo}
           />
           <Text style={paragraph}>Hi there,</Text>
           <Text style={paragraph}>
-            Welcome to DigitalHippo, the marketplace for
-            high quality digital goods. Use the button below
+            Welcome to Collectiverse, the marketplace for
+            high quality collectibles. Use the button below
             to {actionLabel}.
           </Text>
           <Section style={btnContainer}>
@@ -54,7 +54,7 @@ export const EmailTemplate = ({
           <Text style={paragraph}>
             Best,
             <br />
-            The DigitalHippo team
+            The COllectiverse team
           </Text>
           <Hr style={hr} />
           <Text style={footer}>

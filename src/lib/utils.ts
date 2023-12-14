@@ -9,16 +9,16 @@ export function cn(...inputs: ClassValue[]) {
 export function formatPrice(
   price: number | string,
   options: {
-    currency?: 'USD' | 'EUR' | 'GBP' | 'BDT'
+    currency?: 'USD' | 'EUR' | 'GBP' | 'BDT' | 'PHP'
     notation?: Intl.NumberFormatOptions['notation']
   } = {}
 ) {
-  const { currency = 'USD', notation = 'compact' } = options
+  const { currency = 'PHP', notation = 'compact' } = options
 
   const numericPrice =
     typeof price === 'string' ? parseFloat(price) : price
 
-  return new Intl.NumberFormat('en-US', {
+  return new Intl.NumberFormat('en-PH', {
     style: 'currency',
     currency,
     notation,
@@ -27,10 +27,10 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = 'Collectiverse - the marketplace for collectibles',
+  title = 'Collectiverse',
   description = 'Collectiverse is an open-source marketplace for high-quality collectibles.',
   image = '/LOGO_SOFTDEV-01.png',
-  icons = '/favicon.ico',
+  icons = '/favicon1.ico',
   noIndex = false,
 }: {
   title?: string

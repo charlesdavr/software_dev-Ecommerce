@@ -40,7 +40,7 @@ export default function Home() {
         <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
           <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
             Your marketplace for high-quality{' '}
-            <span className='text-orange-600'>
+            <span style={{ color: '#FF8000' }}>
               collectibles
             </span>
             .
@@ -53,7 +53,7 @@ export default function Home() {
           <div className='flex flex-col sm:flex-row gap-4 mt-6' >
             <Link
               href='/products'
-              className={buttonVariants()} style={{ backgroundColor: '#EA580C', color: 'white' }}>
+              className={buttonVariants()} style={{ backgroundColor: '#FF8000', color: 'white' }}>
               Browse Trending
             </Link>
             <Button variant='ghost'>
@@ -77,7 +77,7 @@ export default function Home() {
                 key={perk.name}
                 className='text-center md:flex md:items-start md:text-left lg:block lg:text-center'>
                 <div className='md:flex-shrink-0 flex justify-center'>
-                  <div className='h-16 w-16 flex items-center justify-center rounded-full bg-orange-100 text-orange-600'>
+                  <div className='h-16 w-16 flex items-center justify-center rounded-full bg-orange-100 text-orange-500'>
                     {<perk.Icon className='w-1/3 h-1/3' />}
                   </div>
                 </div>

@@ -30,7 +30,7 @@ export function constructMetadata({
   title = 'Collectiverse',
   description = 'Collectiverse is an open-source marketplace for high-quality collectibles.',
   image = '/LOGO_SOFTDEV-01.png',
-  icons = '/favicon1.ico',
+  icons = '/LOGO_SOFTDEV-01.png',
   noIndex = false,
 }: {
   title?: string

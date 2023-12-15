@@ -25,7 +25,7 @@ export default buildConfig({
     bundler: webpackBundler(),
     meta: {
       titleSuffix: '- Collectiverse',
-      favicon: '/favicon.ico',
+      //favicon: '/favicon.ico',
       ogImage: '/thumbnail.jpg',
     },
   },

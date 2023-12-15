@@ -2757,7 +2757,11 @@ ajv-keywords@^5.1.0:
   dependencies:
     fast-deep-equal "^3.1.3"
 
+<<<<<<< Updated upstream
 ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
+=======
+ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
+>>>>>>> Stashed changes
   version "6.12.6"
   resolved "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz"
   integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
@@ -3085,11 +3089,14 @@ bl@^4.0.3:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
+<<<<<<< Updated upstream
 bluebird@^3.5.0:
   version "3.7.2"
   resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
+=======
+>>>>>>> Stashed changes
 body-parser@^1.20.2, body-parser@1.20.2:
   version "1.20.2"
   resolved "https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz"
@@ -4595,7 +4602,11 @@ eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz"
   integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
 
+<<<<<<< Updated upstream
 eslint@*, "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.0.0 || ^7.0.0 || >=8.0.0", "eslint@^7.0.0 || ^8.0.0", "eslint@^7.23.0 || ^8.0.0", eslint@^8, eslint@^8.47.0:
+=======
+eslint@*, "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.0.0 || ^7.0.0 || >=8.0.0", "eslint@^7.0.0 || ^8.0.0", "eslint@^7.23.0 || ^8.0.0", eslint@^8:
+>>>>>>> Stashed changes
   version "8.53.0"
   resolved "https://registry.npmjs.org/eslint/-/eslint-8.53.0.tgz"
   integrity sha512-N4VuiPjXDUa4xVeV/GC/RV3hQW9Nw+Y463lkWaKKXKYMvmRiRDAtfpuPFLN+E1/6ZhyR8J2ig+eVREnYgUsiag==
@@ -5111,6 +5122,16 @@ get-tsconfig@^4.5.0:
   version "4.7.2"
   resolved "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.7.2.tgz"
   integrity sha512-wuMsz4leaj5hbGgg4IvDU0bqJagpftG5l5cXIAvo8uZrqn0NJqwtfupTN00VnkQJPcIRrxYrm1Ue24btpCha2A==
+<<<<<<< Updated upstream
+=======
+  dependencies:
+    resolve-pkg-maps "^1.0.0"
+
+get-tsconfig@4.6.2:
+  version "4.6.2"
+  resolved "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.6.2.tgz"
+  integrity sha512-E5XrT4CbbXcXWy+1jChlZmrmCwd5KGx502kDCXJJ7y898TtWW9FwoG5HfOLVRKmlmDGkWN2HM9Ho+/Y8F0sJDg==
+>>>>>>> Stashed changes
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
@@ -6132,6 +6153,7 @@ jsonwebtoken@^9.0.0, jsonwebtoken@9.0.1:
     ms "^2.1.1"
     semver "^7.3.8"
 
+<<<<<<< Updated upstream
 jsprim@^1.2.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/jsprim/-/jsprim-1.4.2.tgz"
@@ -6142,6 +6164,8 @@ jsprim@^1.2.2:
     json-schema "0.4.0"
     verror "1.10.0"
 
+=======
+>>>>>>> Stashed changes
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.3.5:
   version "3.3.5"
   resolved "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz"
@@ -8071,11 +8095,14 @@ qs@~6.4.0:
   resolved "https://registry.npmjs.org/qs/-/qs-6.4.1.tgz"
   integrity sha512-LQy1Q1fcva/UsnP/6Iaa4lVeM49WiOitu2T4hZCyA/elLKu37L99qcBJk4VCCk+rdLvnMzfKyiN3SZTqdAZGSQ==
 
+<<<<<<< Updated upstream
 qs@~6.5.2:
   version "6.5.3"
   resolved "https://registry.npmjs.org/qs/-/qs-6.5.3.tgz"
   integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
+=======
+>>>>>>> Stashed changes
 qs@6.11.0:
   version "6.11.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.11.0.tgz"
@@ -8608,7 +8635,11 @@ safe-array-concat@^1.0.1:
     has-symbols "^1.0.3"
     isarray "^2.0.5"
 
+<<<<<<< Updated upstream
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1, safe-buffer@5.1.2:
+=======
+safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.1.0, safe-buffer@~5.1.1, safe-buffer@5.1.2:
+>>>>>>> Stashed changes
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
@@ -9840,11 +9871,14 @@ utils-merge@^1.0.1, utils-merge@1.0.1:
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
+<<<<<<< Updated upstream
 uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
+=======
+>>>>>>> Stashed changes
 uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"

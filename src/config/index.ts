@@ -4,19 +4,19 @@ export const PRODUCT_CATEGORIES = [
     value: 'ui_kits' as const,
     featured: [
       {
-        name: 'Editor picks',
+        name: 'Collector picks',
         href: `/products?category=ui_kits`,
-        imageSrc: '/nav/ui-kits/mixed.jpg',
+        imageSrc: '/nav/ui-kits/bearbricks.png',
       },
       {
-        name: 'New Arrivals',
+        name: 'Ultra Rear Items',
         href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
+        imageSrc: '/nav/ui-kits/cards.png',
       },
       {
-        name: 'Bestsellers',
+        name: 'Holy Grail',
         href: '/products?category=ui_kits',
-        imageSrc: '/nav/ui-kits/purple.jpg',
+        imageSrc: '/nav/ui-kits/funko-pop.png',
       },
     ],
   },
@@ -25,19 +25,19 @@ export const PRODUCT_CATEGORIES = [
     value: 'icons' as const,
     featured: [
       {
-        name: 'Favorite Icon Picks',
+        name: 'Ultra Rare Picks',
         href: `/products?category=icons`,
-        imageSrc: '/nav/icons/picks.jpg',
+        imageSrc: '/nav/icons/tanjiro.png',
       },
       {
         name: 'New Arrivals',
         href: '/products?category=icons&sort=desc',
-        imageSrc: '/nav/icons/new.jpg',
+        imageSrc: '/nav/icons/gandam.png',
       },
       {
-        name: 'Bestselling Icons',
+        name: 'Bestselling Funko Pop',
         href: '/products?category=icons',
-        imageSrc: '/nav/icons/bestsellers.jpg',
+        imageSrc: '/nav/icons/jollibee.png',
       },
     ],
   },
